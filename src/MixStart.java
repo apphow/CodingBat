@@ -11,4 +11,16 @@ public class MixStart {
         }
         return false;
     }
+
+    public static void main(String[] args) {
+        System.out.println("'mix snacks' should return true: " + mixStart("mix snacks"));
+        System.out.println("'pix snacks' should return true: " + mixStart("pix snacks"));
+        System.out.println("'piz snacks' should return false: " + mixStart("piz snacks"));
+        System.out.println("'nix' should return true: " + mixStart("nix"));
+        System.out.println("'ni' should return false: " + mixStart("ni"));
+        System.out.println("'n' should return false: " + mixStart("n"));
+        System.out.println("'' should return false: " + mixStart(""));
+
+
+    }
 }
